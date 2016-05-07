@@ -7,7 +7,7 @@ static Window *window;
 #define DATE_FONT RESOURCE_ID_FONT_DIGITAL_SEVEN_16
 #define TIME_24H_FORMAT "%H:%M"
 #define TIME_12H_FORMAT "%I:%M"
-#define DATE_FORMAT     "%Y/%m/%d"
+#define DATE_FORMAT     "%d/%m/%Y"
 static GFont time_font;
 static GFont date_font;
 static TextLayer *date_layer;
