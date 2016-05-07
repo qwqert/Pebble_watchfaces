@@ -1,0 +1,49 @@
+{
+  "uuid" : "b173e8e3-0927-4ed1-81f3-0c0b42c4ffde",
+  "companyName" : "qwqert",
+  "shortName" : "Calendar Face",
+  "longName" : "Watchface and calendar",
+  "projectType" : "native",
+  "resources" : {
+    "media" : [
+      {
+		"file" : "images/logo.png",
+		"menuIcon" : true,
+		"name" : "LOGO",
+		"type" : "bitmap"
+      },
+      {
+        "file" : "images/bluetooth_linked.png",
+        "name" : "BLUETOOTH_LINKED",
+        "type" : "bitmap"
+      },
+      {
+        "file" : "images/bluetooth_unlinked.png",
+        "name" : "BLUETOOTH_UNLINKED",
+        "type" : "bitmap"
+      },
+      {
+        "type" : "font",
+        "characterRegex" : "[:0-9]",
+        "name" : "FONT_DIGITAL_SEVEN_66",
+        "file" : "fonts/theory.ttf"
+      },
+      {
+        "type" : "font",
+        "characterRegex" : "[ :%a-zA-Z0-9//.]",
+        "name" : "FONT_DIGITAL_SEVEN_16",
+        "file" : "fonts/digital-7.ttf"
+      }
+    ]
+  },
+  "versionCode" : 1,
+  "versionLabel" : "1.1",
+  "watchapp" : {
+    "watchface" : true
+  },
+  "targetPlatforms" : [
+    "aplite",
+    "basalt"
+  ],
+  "sdkVersion" : "3"
+}
